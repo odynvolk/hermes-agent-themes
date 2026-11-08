@@ -1,0 +1,71 @@
+# gruvbox-dark — Gruvbox Dark — retro-groove pastels on classic bg0
+# Official Gruvbox palette (morhetz/gruvbox, MIT). Themes CLI, TUI, and desktop GUI.
+
+name: gruvbox-dark
+description: Gruvbox Dark — retro-groove pastels on classic bg0
+
+colors:
+  # Base surface
+  background: "#282828"  # bg0
+
+  # Accent — gruvbox gold
+  ui_accent: "#fabd2f"  # yellow
+  ui_tool: "#fabd2f"  # yellow
+  banner_accent: "#fabd2f"  # yellow
+
+  # Text hierarchy
+  ui_primary: "#fbf1c7"  # fg0
+  banner_title: "#fbf1c7"  # fg0
+  ui_text: "#ebdbb2"  # fg1
+  banner_text: "#ebdbb2"  # fg1
+  prompt: "#ebdbb2"  # fg1
+  ui_label: "#d5c4a1"  # light2
+  ui_thinking: "#928374"  # gray_245
+  banner_dim: "#928374"  # gray_245
+
+  # Chrome & borders
+  ui_border: "#504945"  # bg2 / VertSplit
+  banner_border: "#504945"  # bg2 / VertSplit
+  input_rule: "#665c54"  # bg3
+  response_border: "#fabd2f"  # yellow
+  response_label: "#fabd2f"  # yellow
+  shell_dollar: "#83a598"  # blue
+
+  # Status
+  ui_ok: "#b8bb26"  # green
+  ui_warn: "#fe8019"  # orange
+  ui_error: "#fb4934"  # red
+
+  # Status bar
+  status_bar_bg: "#3c3836"  # bg1
+  status_bar_text: "#ebdbb2"  # fg1
+  status_bar_strong: "#fbf1c7"  # fg0
+  status_bar_dim: "#928374"  # gray_245
+  status_bar_good: "#b8bb26"  # green
+  status_bar_warn: "#fabd2f"  # yellow
+  status_bar_bad: "#fe8019"  # orange
+  status_bar_critical: "#fb4934"  # red
+  session_label: "#83a598"  # blue
+  session_border: "#665c54"  # bg3
+  voice_status_bg: "#3c3836"  # bg1
+
+  # Completion menu & selection
+  completion_menu_bg: "#3c3836"  # bg1
+  completion_menu_current_bg: "#504945"  # bg2
+  completion_menu_meta_bg: "#32302f"  # bg0_soft
+  completion_menu_meta_current_bg: "#665c54"  # bg3
+  selection_bg: "#504945"  # Visual
+
+  # Diffs
+  diff_added: "#b8bb26"  # green
+  diff_added_word: "#98971a"  # neutral green
+  diff_removed: "#fb4934"  # red
+  diff_removed_word: "#cc241d"  # neutral red
+
+  # Syntax — gruvbox role links
+  syntax_string: "#b8bb26"  # String=green
+  syntax_number: "#d3869b"  # Number=purple
+  syntax_keyword: "#fb4934"  # Keyword=red
+  syntax_comment: "#928374"  # Comment=gray_245
+
+tool_prefix: "┊"

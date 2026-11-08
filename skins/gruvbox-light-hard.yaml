@@ -1,0 +1,71 @@
+# gruvbox-light-hard — Gruvbox Light Hard — brightest cream bg0_hard
+# Official Gruvbox palette (morhetz/gruvbox, MIT). Themes CLI, TUI, and desktop GUI.
+
+name: gruvbox-light-hard
+description: Gruvbox Light Hard — brightest cream bg0_hard
+
+colors:
+  # Base surface
+  background: "#f9f5d7"  # bg0
+
+  # Accent — gruvbox orange (AA on cream)
+  ui_accent: "#af3a03"  # faded orange, 5.4:1 on cream
+  ui_tool: "#af3a03"  # faded orange
+  banner_accent: "#d65d0e"  # orange
+
+  # Text hierarchy
+  ui_primary: "#282828"  # fg0
+  banner_title: "#282828"  # fg0
+  ui_text: "#3c3836"  # fg1
+  banner_text: "#3c3836"  # fg1
+  prompt: "#3c3836"  # fg1
+  ui_label: "#504945"  # dark2
+  ui_thinking: "#7c6f64"  # bg4
+  banner_dim: "#7c6f64"  # bg4
+
+  # Chrome & borders
+  ui_border: "#d5c4a1"  # bg2 / VertSplit
+  banner_border: "#d5c4a1"  # bg2 / VertSplit
+  input_rule: "#bdae93"  # bg3
+  response_border: "#bdae93"  # bg3
+  response_label: "#d65d0e"  # orange
+  shell_dollar: "#458588"  # blue
+
+  # Status
+  ui_ok: "#98971a"  # green
+  ui_warn: "#d79921"  # yellow
+  ui_error: "#cc241d"  # red
+
+  # Status bar
+  status_bar_bg: "#ebdbb2"  # bg1
+  status_bar_text: "#3c3836"  # fg1
+  status_bar_strong: "#282828"  # fg0
+  status_bar_dim: "#7c6f64"  # bg4
+  status_bar_good: "#98971a"  # green
+  status_bar_warn: "#d79921"  # yellow
+  status_bar_bad: "#d65d0e"  # orange
+  status_bar_critical: "#cc241d"  # red
+  session_label: "#458588"  # blue
+  session_border: "#bdae93"  # bg3
+  voice_status_bg: "#ebdbb2"  # bg1
+
+  # Completion menu & selection
+  completion_menu_bg: "#ebdbb2"  # bg1
+  completion_menu_current_bg: "#d5c4a1"  # bg2
+  completion_menu_meta_bg: "#d5c4a1"  # bg2
+  completion_menu_meta_current_bg: "#bdae93"  # bg3
+  selection_bg: "#d5c4a1"  # Visual
+
+  # Diffs
+  diff_added: "#98971a"  # green
+  diff_added_word: "#79740e"  # faded green
+  diff_removed: "#cc241d"  # red
+  diff_removed_word: "#9d0006"  # faded red
+
+  # Syntax — gruvbox role links (light-mode neutrals)
+  syntax_string: "#98971a"  # String=green
+  syntax_number: "#b16286"  # Number=purple
+  syntax_keyword: "#cc241d"  # Keyword=red
+  syntax_comment: "#928374"  # Comment=gray
+
+tool_prefix: "┊"
