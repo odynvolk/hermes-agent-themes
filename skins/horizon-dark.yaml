@@ -1,0 +1,72 @@
+# horizon-dark — Base16 Horizon Dark — VSCode Horizon palette
+# Base16 palette: 'base16-horizon-scheme' by Michael Ball (git.michaelball.name),
+# colors from the Horizon VSCode theme by Jonathan Olaleye (jolaleye, MIT).
+
+name: horizon-dark
+description: Base16 Horizon Dark — VSCode Horizon palette
+
+colors:
+  # Base surface  (base00)
+  background: "#1C1E26"
+
+  # Accent — Horizon coral
+  ui_accent: "#E58D7D"
+  ui_tool: "#E58D7D"
+  banner_accent: "#E58D7D"
+
+  # Text hierarchy
+  ui_primary: "#E3E6EE"
+  banner_title: "#E3E6EE"
+  ui_text: "#CBCED0"
+  banner_text: "#CBCED0"
+  prompt: "#CBCED0"
+  ui_label: "#9DA0A2"
+  ui_thinking: "#6F6F70"
+  banner_dim: "#6F6F70"
+
+  # Chrome & borders  (base02/03)
+  ui_border: "#2E303E"
+  banner_border: "#2E303E"
+  input_rule: "#2E303E"
+  response_border: "#E58D7D"
+  response_label: "#DF5273"
+  shell_dollar: "#DF5273"
+
+  # Status
+  ui_ok: "#24A8B4"
+  ui_warn: "#EFB993"
+  ui_error: "#E93C58"
+
+  # Status bar  (base01)
+  status_bar_bg: "#232530"
+  status_bar_text: "#CBCED0"
+  status_bar_strong: "#E3E6EE"
+  status_bar_dim: "#6F6F70"
+  status_bar_good: "#24A8B4"
+  status_bar_warn: "#EFB993"
+  status_bar_bad: "#DF5273"
+  status_bar_critical: "#E93C58"
+  session_label: "#DF5273"
+  session_border: "#6F6F70"
+  voice_status_bg: "#232530"
+
+  # Completion menu & selection  (base01/02)
+  completion_menu_bg: "#232530"
+  completion_menu_current_bg: "#2E303E"
+  completion_menu_meta_bg: "#1C1E26"
+  completion_menu_meta_current_bg: "#2E303E"
+  selection_bg: "#2E303E"
+
+  # Diffs
+  diff_added: "#24A8B4"
+  diff_added_word: "#24A8B4"
+  diff_removed: "#E93C58"
+  diff_removed_word: "#E93C58"
+
+  # Syntax
+  syntax_string: "#EFB993"
+  syntax_number: "#E58D7D"
+  syntax_keyword: "#B072D1"
+  syntax_comment: "#6F6F70"
+
+tool_prefix: "┊"

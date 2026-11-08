@@ -1,0 +1,74 @@
+# horizon-terminal-light — Horizon Terminal Light — coral ink on blush
+# Base16 palette: 'base16-horizon-scheme' by Michael Ball (git.michaelball.name),
+# colors from the Horizon VSCode theme by Jonathan Olaleye (jolaleye, MIT).
+# Light skins swap base16 pastels below ~2.5:1 on blush for the darker
+# Horizon-family equivalents (same hues, readable on #FDF0ED).
+
+name: horizon-terminal-light
+description: Horizon Terminal Light — coral ink on blush
+
+colors:
+  # Base surface  (base00)
+  background: "#FDF0ED"
+
+  # Accent — Horizon coral
+  ui_accent: "#E95678"
+  ui_tool: "#E95678"
+  banner_accent: "#E95678"
+
+  # Text hierarchy
+  ui_primary: "#201C1D"
+  banner_title: "#201C1D"
+  ui_text: "#403C3D"
+  banner_text: "#403C3D"
+  prompt: "#403C3D"
+  ui_label: "#948C8A"
+  ui_thinking: "#BDB3B1"
+  banner_dim: "#BDB3B1"
+
+  # Chrome & borders  (base02/03)
+  ui_border: "#F9CBBE"
+  banner_border: "#F9CBBE"
+  input_rule: "#F9CBBE"
+  response_border: "#E95678"
+  response_label: "#26BBD9"
+  shell_dollar: "#26BBD9"
+
+  # Status
+  ui_ok: "#1D8991"
+  ui_warn: "#F6661E"
+  ui_error: "#E95678"
+
+  # Status bar  (base01)
+  status_bar_bg: "#FADAD1"
+  status_bar_text: "#403C3D"
+  status_bar_strong: "#201C1D"
+  status_bar_dim: "#BDB3B1"
+  status_bar_good: "#1D8991"
+  status_bar_warn: "#F6661E"
+  status_bar_bad: "#EE64AC"
+  status_bar_critical: "#E95678"
+  session_label: "#26BBD9"
+  session_border: "#BDB3B1"
+  voice_status_bg: "#FADAD1"
+
+  # Completion menu & selection  (base01/02)
+  completion_menu_bg: "#FADAD1"
+  completion_menu_current_bg: "#F9CBBE"
+  completion_menu_meta_bg: "#FDF0ED"
+  completion_menu_meta_current_bg: "#F9CBBE"
+  selection_bg: "#F9CBBE"
+
+  # Diffs
+  diff_added: "#1D8991"
+  diff_added_word: "#1D8991"
+  diff_removed: "#E95678"
+  diff_removed_word: "#E95678"
+
+  # Syntax
+  syntax_string: "#1D8991"
+  syntax_number: "#F6661E"
+  syntax_keyword: "#DA103F"
+  syntax_comment: "#BDB3B1"
+
+tool_prefix: "┊"

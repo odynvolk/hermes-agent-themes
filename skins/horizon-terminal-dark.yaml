@@ -1,0 +1,72 @@
+# horizon-terminal-dark — Horizon Terminal Dark — signature coral & aqua
+# Base16 palette: 'base16-horizon-scheme' by Michael Ball (git.michaelball.name),
+# colors from the Horizon VSCode theme by Jonathan Olaleye (jolaleye, MIT).
+
+name: horizon-terminal-dark
+description: Horizon Terminal Dark — signature coral & aqua
+
+colors:
+  # Base surface  (base00)
+  background: "#1C1E26"
+
+  # Accent — Horizon coral
+  ui_accent: "#FAB795"
+  ui_tool: "#FAB795"
+  banner_accent: "#FAB795"
+
+  # Text hierarchy
+  ui_primary: "#E3E6EE"
+  banner_title: "#E3E6EE"
+  ui_text: "#CBCED0"
+  banner_text: "#CBCED0"
+  prompt: "#CBCED0"
+  ui_label: "#9DA0A2"
+  ui_thinking: "#6F6F70"
+  banner_dim: "#6F6F70"
+
+  # Chrome & borders  (base02/03)
+  ui_border: "#2E303E"
+  banner_border: "#2E303E"
+  input_rule: "#2E303E"
+  response_border: "#FAB795"
+  response_label: "#26BBD9"
+  shell_dollar: "#26BBD9"
+
+  # Status
+  ui_ok: "#29D398"
+  ui_warn: "#FAC29A"
+  ui_error: "#E95678"
+
+  # Status bar  (base01)
+  status_bar_bg: "#232530"
+  status_bar_text: "#CBCED0"
+  status_bar_strong: "#E3E6EE"
+  status_bar_dim: "#6F6F70"
+  status_bar_good: "#29D398"
+  status_bar_warn: "#FAC29A"
+  status_bar_bad: "#F09383"
+  status_bar_critical: "#E95678"
+  session_label: "#26BBD9"
+  session_border: "#6F6F70"
+  voice_status_bg: "#232530"
+
+  # Completion menu & selection  (base01/02)
+  completion_menu_bg: "#232530"
+  completion_menu_current_bg: "#2E303E"
+  completion_menu_meta_bg: "#1C1E26"
+  completion_menu_meta_current_bg: "#2E303E"
+  selection_bg: "#2E303E"
+
+  # Diffs
+  diff_added: "#29D398"
+  diff_added_word: "#29D398"
+  diff_removed: "#E95678"
+  diff_removed_word: "#E95678"
+
+  # Syntax
+  syntax_string: "#29D398"
+  syntax_number: "#FAB795"
+  syntax_keyword: "#EE64AC"
+  syntax_comment: "#6F6F70"
+
+tool_prefix: "┊"
