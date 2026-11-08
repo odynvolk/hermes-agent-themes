@@ -1,8 +1,52 @@
 # hermes-agent-themes
 
-A personal collection of [Hermes Agent](https://github.com/NousResearch/hermes-agent) skins.
-Each skin is a single YAML file that themes the CLI, the TUI, and the desktop GUI from
-one palette — drop it in `~/.hermes/skins/` and Hermes repaints every surface live.
+A personal collection of [Hermes Agent](https://github.com/NousResearch/hermes-agent) themes.
+Two doors, one palette set: YAML **skins** for the CLI/TUI/desktop (`~/.hermes/skins/`), and a
+**Desktop plugin** (`desktop/plugin.js`) that registers the same palettes as native app themes —
+they appear in Settings → Appearance, the ⌘K palette, and `/skin` next to the built-ins.
+
+## Install
+
+### As a Desktop plugin
+
+```bash
+hermes plugins install odynvolk/hermes-agent-themes
+```
+
+Then enable it under **Settings → Plugins** (desktop halves of installed packages ship disabled),
+and pick a theme in **Settings → Appearance**: *Gruvbox*, *Gruvbox Hard*, *Gruvbox Soft*,
+*Horizon*, *Horizon Warm*. Each theme carries a light + dark palette (following the app's
+appearance mode) and an integrated-terminal ANSI palette. The package validates clean with
+`hermes plugins validate .` (13/13 checks, desktop surface ✓, security scan: safe).
+
+### As CLI/TUI skins
+
+```bash
+cp skins/*.yaml ~/.hermes/skins/
+```
+
+Activate one — every open surface (CLI, TUI, desktop) repaints within ~a second:
+
+```bash
+hermes config set display.skin gruvbox-dark
+```
+
+Switch between installed skins with `hermes skin list` / `hermes skin use <name>`,
+or the desktop Appearance settings and `⌘K`. Revert with:
+
+```bash
+hermes config set display.skin default
+```
+
+### Getting listed in the catalog
+
+`hermes plugins install <name>` (no URL) only works once the repo is listed in the
+curated catalog. Listing is a human-reviewed PR to
+[`plugin-catalog/`](https://github.com/NousResearch/hermes-agent/tree/main/plugin-catalog)
+in `NousResearch/hermes-agent` — no self-serve registry. A ready-to-submit entry lives at
+[`catalog/hermes-agent-themes.yaml`](catalog/hermes-agent-themes.yaml) with the SHA pin;
+regenerate the pin after any change per the
+[submission guide](https://hermes-agent.nousresearch.com/docs/developer-guide/plugins/catalog-submission).
 
 ## Themes
 
@@ -45,25 +89,6 @@ so status colors stay green/amber/red instead of vanishing.
 The two *terminal* variants follow the terminal scheme files (signature mint `#29D398`
 strings, aqua `#26BBD9`, pink `#EE64AC`); the plain dark/light variants follow the
 VSCode-derived schemes (warm peaches, violet `#B072D1` keywords, raspberry `#DA103F`).
-
-## Install
-
-```bash
-cp skins/*.yaml ~/.hermes/skins/
-```
-
-Activate one — every open surface (CLI, TUI, desktop) repaints within ~a second:
-
-```bash
-hermes config set display.skin gruvbox-dark
-```
-
-Switch between installed skins with `hermes skin list` / `hermes skin use <name>`,
-or the desktop Appearance settings and `⌘K`. Revert with:
-
-```bash
-hermes config set display.skin default
-```
 
 ## Tuning a skin you like
 

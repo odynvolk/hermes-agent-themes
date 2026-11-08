@@ -1,0 +1,15 @@
+name: hermes-agent-themes
+label: Gruvbox & Horizon Themes
+version: 1.0.0
+author: odynvolk
+homepage: https://github.com/odynvolk/hermes-agent-themes
+description: >
+  Ten faithful palettes, five desktop themes: the full Gruvbox contrast ladder
+  (dark/hard/soft x light/hard/soft, morhetz) and both Base16 Horizon schemes
+  (Michaël Ball, from Jonathan Olaleye's Horizon VSCode theme). Each theme carries
+  a light and a dark palette plus an integrated-terminal ANSI palette, registered
+  through the Desktop SDK's THEMES_AREA so they appear in Settings > Appearance,
+  the command palette, and /skin alongside the built-ins. Desktop-only
+  (desktop/plugin.js); no agent tools, hooks, middleware or env vars. The skins/
+  YAML palettes in this repo are the CLI/TUI twins, loaded via ~/.hermes/skins/.
+tags: [desktop, theme, appearance, gruvbox, horizon, base16]
