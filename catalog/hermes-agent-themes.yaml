@@ -1,0 +1,31 @@
+# Catalog entry for NousResearch/hermes-agent: submit as
+#   plugin-catalog/hermes-agent-themes.yaml
+# in a PR from the repo owner. See:
+#   https://hermes-agent.nousresearch.com/docs/developer-guide/plugins/catalog-submission
+# After any change to the plugin, re-pin `sha` to the new commit (and it must be
+# re-reviewed as a SHA bump), then re-run: hermes plugins validate .
+name: hermes-agent-themes
+repo: https://github.com/odynvolk/hermes-agent-themes
+sha: 571f419ad1e2d52abb12821a71379c10a19cfef6
+title: Gruvbox & Horizon Themes
+description: >
+  Ten faithful palettes, five Desktop themes: the full Gruvbox contrast ladder
+  (dark/hard/soft x light/hard/soft, morhetz) and both Base16 Horizon schemes
+  (Michaël Ball, from Jonathan Olaleye's Horizon VSCode theme). Each theme registers
+  through THEMES_AREA with a light and a dark palette plus integrated-terminal ANSI
+  palettes, appearing in Settings > Appearance, the command palette and /skin beside
+  the built-ins. Desktop-only (desktop/plugin.js); the skins/ YAML palettes in the
+  repo are CLI/TUI twins loaded via ~/.hermes/skins/. No agent tools, hooks,
+  middleware or env vars.
+maintainer: odynvolk
+tier: community
+category: desktop
+version: "1.0.0"
+docs_url: https://github.com/odynvolk/hermes-agent-themes
+readme: true
+platforms: []
+capabilities:
+  provides_tools: []
+  provides_hooks: []
+  provides_middleware: []
+  requires_env: []
